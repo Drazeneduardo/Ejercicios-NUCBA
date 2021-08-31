@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1><strong>Formulario de registro</strong></h1>
+    </header>
+    <main>
+        <!--Formulario "importante todo este dentro del form"-->
+        <form action="/">
+            <!--Etiquetas en cada input que luego son separadas por br-->
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="24" minlength="2"><br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" maxlength="24"
+                minlength="2"><br><br>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="hombre" id="hombre">Hombre
+            <input type="radio" name="mujer" id="mujer">Mujer <br><br>
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" placeholder="Correo electronico" maxlength="30"><br><br>
+            <input type="checkbox" name="info" id="info">Deseo recibir información sobre proyectos futuros <br><br>
+            <input type="checkbox" name="tyc" id="tyc">Declaro haber leido los terminos y condiciones establecidos
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+            <input type="button" value="Clickea si llenaste todo" onclick="alert('Gracias CRACK ahora dale Enviar')">
+        </form>
+    </main>
+
+</body>
+
+</html>
